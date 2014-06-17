@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/cowboys.jpg) no-repeat center top;
+	background: url(../img/cowboys_v2.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-    opacity: 0.85;
+    opacity: 0.75;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -272,13 +272,21 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
+	margin-top: 120px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
-	font-size: 100px;
+	font-size: 72px;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
+
+#headerwrap h2 {
+	color:#ffffff;
+	padding-bottom: 30px;
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #000;
+}
+
 
 /* About Wrap & Conf */
 #aboutwrap {
@@ -330,6 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about {
 	background-image: url(../img/horsetrailer_v2.jpg);
+    opacity: 0.85;
 }
 
 /* Portfolio Wrap Section */
@@ -430,6 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact {
 	background-image: url(../img/boots.jpg);
+    opacity: 0.85;
 }
 
 #contactwrap label {
